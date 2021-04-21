@@ -60,7 +60,7 @@ def links_grouped_by_category(user_links)
     next unless missing_count > 0
     missing_count.times { v << 0 }
   end
-  #return result
+  return result
   stats = {}
   result.each do |k, v|
     stats[k] = v.descriptive_statistics
